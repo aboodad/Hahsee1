@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm run build",
-  "outputDirectory": "dist",
+  "buildCommand": "pnpm --filter hashim-erp-web build",
+  "outputDirectory": "apps/web/dist",
   "rewrites": [
     {
       "source": "/(.*)",

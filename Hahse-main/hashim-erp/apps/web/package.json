@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-"build": "vite build",
-
+    "build": "vite build",
+    
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "cap:sync": "npm run build && npx cap sync",
@@ -45,6 +45,4 @@
     "typescript": "^5.5.4",
     "vite": "^5.4.3"
   }
-}
-
 }

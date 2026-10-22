@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  apps/web:
     dependencies:
       '@capacitor-mlkit/barcode-scanning':
         specifier: ^6.0.0
