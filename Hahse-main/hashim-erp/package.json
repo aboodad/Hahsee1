@@ -7,6 +7,8 @@
     "web:build": "npm --prefix apps/web run build",
     "db:push": "supabase db push",
     "fn:deploy": "supabase functions deploy manage-user",
-    "gen:types": "supabase gen types typescript --linked > apps/web/src/types/database.types.ts"
-  }
+    "gen:types": "supabase gen types typescript --linked > apps/web/src/types/database.types.ts",
+    "build": "pnpm --filter hashim-erp-web build"
+  },
+  "packageManager": "pnpm@10.0.0"
 }
